@@ -1,0 +1,15 @@
+[project]
+name = "project-agent"
+version = "0.1.0"
+description = "Here, I will analyze the advantages and disadvantages of stateful and stateless agents"
+readme = "README.md"
+authors = [
+    { name = "EddyGiusepe", email = "eddychirinos.unac@gmail.com" }
+]
+requires-python = ">=3.10, <3.13.8"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.0",
+]
